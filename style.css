@@ -1,0 +1,104 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen-child/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url("/wordpress/wp-content/themes/twentyseventeen/style.css");
+
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+body.has-header-image .site-description, body.has-header-video .site-description {
+    color: #F3E172;
+    opacity: 0.8;
+}
+
+
+.navigation-top a {
+    color: #7F73B5;
+    font-weight: 600;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    
+    margin-right:50px;
+}
+
+h2.widget-title {
+    color: #79A519;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 800;
+    letter-spacing: 0.1818em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+div {
+    display: block;
+    background-color: yellow;
+}
+*/
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #222;
+    font-size: 40px;
+    /*font-size: 0.875rem;*/
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-left:160px;
+}
+
+.entry-title a, .entry-meta a, .page-links a, .page-links a .page-number, .entry-footer a, .entry-footer .cat-links a, .entry-footer .tags-links a, .edit-link a, .post-navigation a, .logged-in-as a, .comment-navigation a, .comment-metadata a, .comment-metadata a.comment-edit-link, .comment-reply-link, a .nav-title, .pagination a, .comments-pagination a, .site-info a, .widget .widget-title a, .widget ul li a, .site-footer .widget-area ul li a, .site-footer .widget-area ul li a {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+    box-shadow: inset 0 -1px 0 rgba(79, 12, 173);
+    text-decoration: none;
+    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
+    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
+    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
+    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+    color:#7F73B5;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color:#79A519;
+}
+
+.site-header .menu-scroll-down .icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color:#79A519;
+}
+
+.site-content {
+    padding: 5.5em 0 0;
+    background-color:#d6e288;
+}
+
+.site-footer {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-top: 3em;
+    background-color:#afba71;
+}
+
