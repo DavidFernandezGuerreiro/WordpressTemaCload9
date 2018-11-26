@@ -20,8 +20,10 @@
 			<h3>Creado por Sir</h3>
 			<div class="wrap">
 				
+				<!--Menu del footer-->
 				<!--MENU:--><?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 				
+				<!--Widget Area del footer-->
 				<aside id="secondary" class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Blog Sidebar', 'twentyseventeenchild' ); ?>">
 					<?php dynamic_sidebar( 'footer-widget' ); ?>
 				</aside><!-- #secondary -->
