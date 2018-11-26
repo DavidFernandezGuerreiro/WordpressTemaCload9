@@ -30,6 +30,7 @@
 
 		<?php get_template_part( 'template-parts/header/header','image' ); ?>
 
+	<!-- Menu "top" del tema -->
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
 				<div class="wrap">
