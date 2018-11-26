@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url("/wordpress/wp-content/themes/twentyseventeen/style.css");
 
+/* color de la letra, fuente y negrita del header */
 body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
     color: black;
     font-family: Arial;
@@ -37,6 +38,7 @@ body.has-header-image .site-description, body.has-header-video .site-description
     margin-right:50px;
 }
 
+/* titulo widget */
 h2.widget-title {
     color: #79A519;
     font-size: 13px;
