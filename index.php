@@ -37,16 +37,16 @@ get_header(); ?>
 				/* Start the Loop */
 				while ( have_posts() ) {
 					
-					the_post();
+					the_post(); //<- recoge la consulta del post
 			?>
 			<h1>
 			<strong><a href="
 			<?php
-					the_permalink();
+					the_permalink(); //<- enlace del post
 			?>
 			">
 			<?php
-					the_title();
+					the_title(); //<- titulo del post
 			?>
 			</a></strong>
 			</h1>
@@ -54,12 +54,12 @@ get_header(); ?>
 				<tr>
 					<td>
 			<?php
-					the_post_thumbnail();
+					the_post_thumbnail(); //<- imagen de portada del post
 			?>
 					</td>
 					<td>
 			<?php
-					the_excerpt();
+					the_excerpt(); // <- resumen del contenido del post
 			?>
 					</td>
 				</tr>
@@ -67,12 +67,12 @@ get_header(); ?>
 			
 			<hr>
 			<?php
-					the_content();
+					the_content(); //<- contenido del post
 			?>
 			
 			<strong></b><a href="
 			<?php
-					the_permalink();
+					the_permalink(); //<- enlace del post (Leer más)
 			?>
 			">> Leer más</a></strong>
 			<hr>
